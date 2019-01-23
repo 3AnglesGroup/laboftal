@@ -1,55 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Laboratorios Oftálmicos</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-</head>
-
-<!-- ______________________________________________________________________-->
-
-<body id="page-top">
-    <div id="home"></div>
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header" >
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">nav</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top" ><img class="logo_empresa" src="img/logo.png"></a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#home">HOME</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#productos">PRODUCTOS</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="servicio_tecnico.html">SERVICIO TÉCNICO</a>
-                    </li>
-                    <li>
-                       <a class="page-scroll" href="#contact">CONTACTO</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-<!-- ______________________________________________________________________-->
+@extends('layouts.web')
+@section('content')
 
     <header>
         <div class="header-content">
@@ -83,7 +33,7 @@
                 <div class="col-lg-4 text-center pull-right txt_panel_dos">
                     <h2 class="h2_uno"><i>NUESTROS<i></h2>
                     <h2 class="h2_dos">Productos</h2>
-                    <div class="btn_text_panel_dos"><a href="productos.html" style="color: white; text-decoration: none;">ENTRAR</a></div>
+                    <div class="btn_text_panel_dos"><a href="{{url('productos')}}" style="color: white; text-decoration: none;">ENTRAR</a></div>
                     <div class="btn_fondo_panel_dos"></div>
                 </div>
             </div>
@@ -129,66 +79,9 @@
     <section class="bloque_separador">
 
     </section>
-<!-- _________________________________________________________________-->
-
-   <footer class="footer" id="contact">
-       <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center box_izq">
-                    <img src="img/logo.png" alt="Logo Laboratorios Oftalmológicos" class="logo_laboratorio">
-                    <div class="row row_logos">
-                        <div class="logos_redes logo_facebook">
-                            <i class="fa fa-facebook fa-2x sr-contact"></i>
-                        </div>
-                        <div class="logos_redes logo_instagram">
-                            <i class="fa fa-instagram fa-2x sr-contact"></i>
-                        </div>
-                    </div>
-                </div><!-- cierre div.(Col-lg-4)-->
+@stop
 
 
-                <div class="col-lg-4  col-md-6 text-center box_md" >
-                    <h2 class="">CONTACTO</h2>
-                    <div class="box_md_bloque">
-                        <div class="col-lg-2 col-xs-2 box_md_izq">
-                            <i class="fa fa-map-marker fa-2x sr-contact"></i>
-                        </div>
-                        <div class="col-lg-10 col-xs-10 box_md_der">Calle 98 # 14-17 Edificio Parque 98. Oficina 203
-                        </div>
-                    </div>
-                    <div class="box_md_bloque">
-                        <div class="col-lg-2 col-xs-2 box_md_izq">
-                            <i class="fa fa-whatsapp fa-2x sr-contact"></i></div>
-                        <div class="col-lg-10 col-xs-10 box_md_der" style="padding-top: 7px;">317 624 3475</div>
-                    </div>
-                    <div class="box_md_bloque">
-                        <div class="col-lg-2 col-xs-2 box_md_izq">
-                            <i class="fa fa-envelope fa-2x sr-contact"></i></div>
-                        <div class="col-lg-10 col-xs-10 box_md_der" style="padding-top: 7px">gerencia@laboftal.com</div>
-                    </div>
-                    <div class="box_md_bloque pull-left" style="font-size: 17px; color: #009BA4;">
-                        <i>Encuentranos en Google Maps<i>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-12 box_der">
-                    <img src="img/logo_group.png" alt="">
-                </div>
-
-            </div><!-- cierre div.row -->
-       </div> <!-- cierre div.cintainer -->
-    </footer>
-
-
-<!-- _________________________________________________________________-->
-
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/creative.min.js"></script>
-
-</body>
-
-</html>
+@push('style')
+<link href="css/main.css" rel="stylesheet">
+@endpush
