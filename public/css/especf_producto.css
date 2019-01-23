@@ -1,0 +1,450 @@
+
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)*/
+ /*
+ .navbar-default,a{
+ 	              -webkit-transition:all .35s;
+ 	              -moz-transition:all .35s;
+ }  */
+
+@import "menu.css";
+
+/*____________________________________________________________________*/
+
+ header,
+ header .header-content{
+                      position:relative;
+                      width:100%;
+                      text-align:center;
+                     /* border: 1px solid red;*/
+ }
+
+ body,
+ html{
+       height:100%;
+       width:100%;
+ }
+
+ body{
+ 	background: white;	
+ 	overflow-x: hidden; 
+ }
+
+ 	img.logo_empresa{
+			  width: 170px !important;
+			  max-height: 49px !important;
+			  margin: -6px 0px 0px 0px !important;
+			 /* border: 1px solid red;*/ 				
+ 	}
+
+	 .btn,
+	 .navbar-default,
+	 .navbar-default .navbar-header .navbar-brand,
+	 h1,
+	 h2,
+	 h3,
+	 h4,
+	 h5,
+	 h6{
+	 	font-family: calibri; 	   
+	 }
+
+	 hr{
+	 	border-color:#F05F40;
+	 	border-width:3px;
+	 	max-width:90px;
+	 }
+
+	 
+
+ a{
+   transition:all .35s;
+   color:#F05F40;
+ }
+
+ a:focus,a:hover{
+ 	            color:#eb3812;
+ }
+
+ p{
+ 	font-size:16px;
+ 	line-height:1.5;
+ 	margin-bottom:20px;
+ }
+
+
+
+/*____________________________________________________________________*/
+
+ header{
+ 	    background-image: url('../img/laboratorio5.png');
+ 	    min-height:auto;
+ 	    -webkit-background-size:cover;
+ 	    -moz-background-size:cover;
+ 	    background-size:cover;	
+ 	    -o-background-size:cover;
+ 	    background-position:center;
+ 	    color:#fff;
+ }
+	 div.header-content{
+	 			padding:110px 15px 90px 15px;
+	 			/*border: 1px solid yellow;*/
+	 			overflow: hidden;
+	 } 
+		.header-content-inner{
+			overflow: hidden;
+			width: 50% !important;
+			margin: auto;
+		} 
+
+			 header .header-content .header-content-inner h1.prim_tlt{
+			 			font-weight:500;
+			 			margin-top:0;
+			 			margin-bottom:0;
+			 			font-size:35px;
+			 			margin-left: 15px;
+			 			margin-bottom: 0;
+			 			font-size: 40px;
+			 }
+/*__________________________________________*/
+
+ @media (min-width:500px){
+	header{
+		min-height:auto;
+	} 
+		div.header-content{
+		 		padding:140px 15px 120px 15px;
+		}
+ 		.header-content-inner{
+			width: 220px !important;
+		}		  	
+			header .header-content .header-content-inner h1.prim_tlt{
+			 			font-size:48px;
+			} 		
+ }
+
+/*__________________________________________*/
+
+ @media (min-width:768px){
+
+ 	header{
+ 		   min-height:65%;
+ 	}
+		div.header-content{
+			padding:80px 15px 90px 15px;
+			position:absolute;
+			top:50%;
+			-webkit-transform:translateY(-50%);
+			-ms-transform:translateY(-50%);
+			transform:translateY(-50%);
+			/*border: 2px solid red;*/
+        }
+			header .header-content .header-content-inner{
+						min-width:270px;
+			}					
+				 header .header-content .header-content-inner h1.prim_tlt{
+				 			font-size:52px;
+				 }
+ } 
+
+/*__________________________________________*/
+
+
+@media (min-width: 1200px) {
+      header {
+         min-height: 86%;
+      }
+		div.header-content{
+			padding:40px 15px 90px 15px;
+			top:48%;
+        } 
+			header .header-content .header-content-inner{
+						min-width:320px;
+			} 
+				 header .header-content .header-content-inner h1.prim_tlt{
+				 			font-size:66px;
+				 }			                
+}     
+
+/*______________________________________________________________________*/
+/*______________________________________________________________________*/
+
+
+section.panel_categorias{
+	         background-color:white;
+	         padding:20px 0 0px 0;
+}
+    div.categoria_productos{
+    	margin-bottom: 6px;
+    	margin-left: auto;
+    	margin-right: auto;
+      color: #039CA5;
+      font-style: italic;
+      text-align: center;
+    }	
+        div.categoria_productos p{
+          font-size: 12px;
+        }     	
+
+/*__________________________________________*/
+
+@media (min-width:768px){
+section.panel_categorias{
+           background-color:white;
+           padding:30px 0 10px 0;
+}
+    div.categoria_productos p{
+      font-size: 14px;
+    }       
+} 
+
+
+/*______________________________________________________________________*/
+/*______________________________________________________________________*/
+
+
+ section.panel_uno{
+ 	         background-color:white;
+ 	         padding: 0px 0 0px 0;
+ 	         overflow: hidden;
+ }
+ 	.panel_uno_izq{
+ 		display: inline-block;
+ 		margin-bottom: 20px;
+ 		text-align: center;
+ 	}
+ 		.panel_uno_izq img{
+ 			max-width: 400px;
+ 			margin: auto;
+ 		}
+			
+ 	.panel_uno_der{
+ 		margin-bottom: 30px;
+ 	}
+		h2.section-heading{
+		 			margin-top:0;
+		 			color: #039CA5;
+		 			font-size: 28px;
+		 			border-bottom: 2px solid #039CA5;
+		 			width: 130px;
+		 			padding-bottom: 7px;
+		} 
+		p.text-faded{
+		 	        color: #6B6C6F;
+		}
+		p.prrf_panel_uno{
+		 				/*border: 2px solid green;*/
+		 				font-size: 15px;
+		 				text-align: justify;
+		 				line-height: 28px;
+		}
+		p.especf_tecnicas{
+			color: #039CA5;
+			padding-top: 10px;
+			display: inline;
+			font-size: 15px;
+		}
+		.panel_uno_der button{
+			border: 2px solid #0295A4;
+			font-style: italic;
+			background: none;
+			color: #039CA5;
+			margin-top: -8px;
+			padding: 6px 12px;
+		}
+
+/*__________________________________________*/
+
+ @media (min-width:550px){
+ 	.panel_uno_izq{
+ 		margin-left: 12%;
+ 	}
+
+ }
+
+/*__________________________________________*/
+
+ @media (min-width:768px){
+ 	.panel_uno_izq{
+ 		margin-left: 0;
+ 	}	
+ 	.panel_uno_der{
+ 		padding-top: 15px;
+ 	} 				
+ }
+
+/*__________________________________________*/
+
+ @media (min-width:992px){
+ 	.panel_uno_der{
+ 		padding-top: 40px;
+ 	} 
+		h2.section-heading{
+		 			font-size: 32px;
+		} 
+		p.prrf_panel_uno{
+		 				font-size: 17px;
+		}
+		p.especf_tecnicas{
+			padding-top: 15px;
+			font-size: 17px;
+		}
+		.panel_uno_der button{
+			font-size: 16px;
+		} 					
+ }
+
+
+/*______________________________________________________________________*/
+/*______________________________________________________________________*/
+
+
+ section.panel_dos{
+ 	         background-color:white;
+ 	         padding:30px 0 0px 0;
+ }
+		
+ 	.caja_form{
+ 		padding: 30px 0 80px 0;
+ 		background-image: url('../img/fondo_pan_uno_der.png');
+ 	    min-height:auto;
+ 	    -webkit-background-size:cover;
+ 	    -moz-background-size:cover;
+ 	    background-size:cover;	
+ 	    -o-background-size:cover;
+ 	    background-position:center; 
+ 	    margin-bottom: 0;		
+ 	}
+		form{
+			 width: 70%;
+			 margin: auto;
+		}
+
+			input{
+				 margin: 14px 0 25px 0;
+				 font-style: normal;
+			}
+				input::-webkit-input-placeholder {
+				  color: white;
+				}
+				input:-moz-placeholder {
+				  color: white;
+				}
+				input:-ms-input-placeholder {
+				  color: white;
+				}
+
+				.formulario-control {
+						  display: block;
+						  width: 100%;
+						  height: 26px;
+						  padding: 6px 6px;
+						  font-size: 14px;
+						  line-height: 1.42857143;
+						  color: white;
+						  background-color: transparent;
+						  border: none;
+						  border-bottom: 1px solid white;
+						  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+						          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+						  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+						       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+						          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+						}
+
+			textarea{
+				 font-style: normal;
+				 height: 60px !important;
+			}
+				textarea::-webkit-input-placeholder {
+				color: white;
+				}
+
+				textarea:-moz-placeholder { /* Firefox 18- */
+				color: white;  
+				}
+
+				textarea::-moz-placeholder {  /* Firefox 19+ */
+				color: white;  
+				}
+
+				textarea:-ms-input-placeholder {
+				color: white;  
+				}
+
+			.caja_form button{
+					display: block;
+					margin-top: 18px;
+					padding: 5px 14px;
+					font-size: 14px;
+					background: white;
+					color: gray;
+					font-style: normal;
+			}	
+
+
+/*__________________________________________*/
+
+ @media (min-width:768px){
+ section.panel_dos{
+ 	         margin-top: 15px;
+ 	         padding-top: 0;
+ 	         margin-bottom: 50px;
+ }			
+ 	.caja_form{
+ 		padding: 60px 0 80px 0;	
+ 	}
+		form{
+			 width: 60%;
+			 margin: auto;
+		}
+
+			input{
+				 margin: 16px 0 27px 0;
+				 font-style: normal;
+			}
+
+				.formulario-control {
+						  width: 100%;
+						  height: 40px;
+						  font-size: 16px;
+						}
+
+			textarea{
+				 font-style: normal;
+				 height: 77px !important;
+			}
+			.caja_form button{
+					padding: 7px 16px;
+					font-size: 16px;
+			}	
+ }
+
+
+
+/*______________________________________________________________________*/
+/*______________________________________________________________________*/
+
+
+
+ 	.btn-primary{
+ 				color:#fff;
+ 				background-color:#F05F40;
+ 				border-color:#F05F40;
+ 				-webkit-transition:all .35s;
+ 				-moz-transition:all .35s;
+ 				transition:all .35s;
+ 	}
+
+ 	.btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary{
+ 				color:#fff;
+ 				background-color:#039CA5;
+ 				border-color:#ed431f;
+ 	}
+
+ 	.btn{
+ 		border:none;
+ 		border-radius:300px;
+ 		font-weight:700;
+ 		text-transform:uppercase;
+    }
