@@ -5,7 +5,7 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <hr class="hr_header">
-                <p>Equipos de alta calidad con</p>
+                <p>Equipos de alta calidad cons</p>
                 <h1 id="homeHeading"><i>TECNOLOGÍA</i></h1>
                 <h1 class="seg_tlt">Avanzada</h1>
             </div>
