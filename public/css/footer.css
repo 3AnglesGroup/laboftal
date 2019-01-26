@@ -1,0 +1,205 @@
+
+footer.footer{
+			margin-top: 0;
+			padding: 35px 5px 40px 5px;
+			background: #14406C;
+}
+
+	footer.footer img{
+		display: block;
+		clear: both;
+		width: 200px;
+		margin-bottom: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	div.logos_redes{
+		background: white;
+		border-radius: 50%;
+		padding: 8px;
+		width: 45px;
+		height: 45px;
+		opacity: 0.4;
+		color: #14406C;		
+	}
+		div.logo_facebook{
+			float: left;
+			margin-left: 33%;
+		}
+		div.logo_instagram{
+			float: right;
+			margin-right: 33%;
+		}	
+
+
+	div.box_md{
+		margin-top: 34px;
+		margin-bottom: 20px;
+	}
+	footer.footer h2{
+						display: block;
+						color: #009BA4;
+						clear: both;
+						text-align: left;
+						font-size: 24px;
+						margin-top: 0px;
+		                padding-top: 0px;
+	}
+	.box_md_bloque{
+		display: block;
+		padding: 6px 0px 6px 0px;
+		overflow: hidden;
+	}
+		div.box_md_izq{
+			text-align: left;
+			color: #009BA4;
+		}
+		div.box_md_der{
+			text-align: left;
+			color: white;
+			font-size: 15px;
+			font-style: normal;
+			line-height: 19px; 
+			margin-left: 0px;
+			padding-left: 0px;
+		}
+	div.box_der{
+		padding-top: 50px;
+	}
+		.box_der img{
+			width: 200px;
+		}
+
+ /*__________________________________________*/
+
+ @media (min-width:500px){
+footer.footer{
+			padding: 35px 8px 40px 8px;
+}	
+	footer.footer img{
+		display: inline;
+		width: 200px;
+		margin-bottom: 15px;
+		float: left;
+	}
+	div.row_logos{
+		float: right;
+		width: 50%;
+		margin-bottom: 40px;
+	}
+			div.logo_facebook{
+				margin-left: 18%;
+			}
+			div.logo_instagram{
+				margin-right: 18%;
+			}
+	div.box_md{
+		clear: both;
+		margin-bottom: 20px;
+	}
+	div.box_der{
+		clear: both;
+		padding-top: 20px;
+		overflow: hidden;
+		text-align: center;
+	}
+		.box_der img{
+			margin-left: 20%;
+			float: none !important;
+			width: 200px;
+		}		
+ }
+
+ /*__________________________________________*/
+
+ @media (min-width:768px){
+footer.footer{
+}
+	.box_izq{
+		overflow: hidden;
+		width: 38%;
+		float: left;
+		display: inline;
+	}	
+		footer.footer img{
+			width: 240px;
+		}
+		div.row_logos{
+			display: block;
+			width: 100%;
+			margin: auto;
+		}
+				div.logo_facebook{
+					margin-left: 18%;
+				}
+				div.logo_instagram{
+					margin-right: 18%;
+				}
+	div.box_md{
+		margin-bottom: 20px;
+		float: right;
+		width: 56%;
+		display: inline;
+		clear: none;
+		margin-top: 0px;
+	}
+	div.box_der{
+		clear: both;
+		padding-top: 20px;
+		overflow: hidden;
+		text-align: center;
+	}
+		.box_der img{
+			margin-left: 20%;
+			float: none !important;
+		}		
+ }
+
+ /*__________________________________________*/
+
+ @media (min-width:992px){
+footer.footer{
+			padding: 100px 0 70px 0;
+}
+	.box_izq{
+		overflow: hidden;
+		width: auto;
+	}
+		footer.footer img{
+			float: none;
+			width: 260px;
+			clear: both;
+			margin-bottom: 20px;
+	    	margin-left: auto;
+		    margin-right: auto;
+		}
+		div.logos_redes{
+			padding: 10px;
+			width: 50px;
+			height: 50px;	
+		}		
+			div.logo_facebook{
+				margin-left: 33%;
+			}
+			div.logo_instagram{
+				margin-right: 33%;
+			}
+
+	div.box_md{
+		margin-bottom: 0px;
+		float: left;
+		width: auto;
+	}
+		div.box_md_der{
+			font-size: 17px;
+		}	
+	div.box_der{
+		padding-top: 50px;
+		clear: none;
+	}
+		.box_der img{
+			margin-left: 0px;
+			float: left;
+			width: 100px;
+		}
+}

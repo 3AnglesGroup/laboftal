@@ -9,6 +9,7 @@
     <meta name="author" content="">
     <title>Laboratorios Oftálmicos</title>
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     @stack('style')
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
