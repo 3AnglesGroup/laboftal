@@ -16,6 +16,13 @@ Route::get('/productos', function () {  return view('productos');});
 Route::get('/servicio', function () {  return view('servicio');});
 Route::get('/detalle', function () {  return view('detalle');});
 
+//Rutas de administrador
+
+Route::get('administrador',function (){ return view('admin.index');});
+
+
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
