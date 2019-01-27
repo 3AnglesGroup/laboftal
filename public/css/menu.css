@@ -5,6 +5,19 @@ Follow me on Twitter @maridlcrmn
 
 /*__________________________________________________________________*/
 
+/* FUENTES PROYECTO */
+@font-face{
+    font-family: avenir_light;
+    src: url(../fuentes/avenir-light.ttf);
+}
+
+@font-face{
+    font-family: airbus;
+    src: url(../fuentes/airbus.ttf);
+}
+
+/*__________________________________________________________________*/
+
  .navbar-default{
                  background-color:#14406C;
                  border-color:rgba(34,34,34,.05);

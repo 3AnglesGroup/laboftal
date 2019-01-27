@@ -99,10 +99,11 @@
 		 }	 
 
 		 header .header-content .header-content-inner p{
-		 			font-weight:300;
-		 			color:rgba(255,255,255,.7);
-		 			font-size:16px;
+		 			color:white;
+		 			font-size:17px;
 		 			margin-bottom:10px;
+		 			font-family: avenir_light;
+		 			font-style: normal;
 		 }	 
 
 		 header .header-content .header-content-inner h1{
@@ -110,6 +111,12 @@
 		 			margin-top:0;
 		 			margin-bottom:0;
 		 			font-size:35px;
+		 			font-family: airbus;
+		 }
+
+		 header h1.seg_tlt{
+		 	font-family: avenir_light !important;
+		 	margin: 0;
 		 }
 
 /*__________________________________________*/
@@ -119,11 +126,12 @@
 		height: 60%;
 	}
 	header .header-content .header-content-inner p{
-	 			font-size:17px;
+	 			font-size:18px;
 	}	 
 
 	header .header-content .header-content-inner h1{
 	 			font-size:42px;
+	 			font-family: airbus;
 	}
 }
 
@@ -159,15 +167,17 @@
 
 						header .header-content .header-content-inner h1{
 									font-size:50px;
+									font-family: airbus;
 						}
 						h1.seg_tlt{
 							padding-left: 100px;
+							font-family: avenir_light !important;
 						}
 
 						header .header-content .header-content-inner p{
 									font-size:19px;
 									max-width:80%;
-								/*	border: 1px solid blue;*/
+									font-family: avenir_light;
 						}
  } 
 
