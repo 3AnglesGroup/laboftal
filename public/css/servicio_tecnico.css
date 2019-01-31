@@ -92,7 +92,6 @@
 	 			overflow: hidden;
 	 } 
 		.header-content-inner{
-			overflow: hidden;
 			width: 50% !important;
 			margin: auto;
 		} 
@@ -105,11 +104,13 @@
 			 			float: left;
 			 			margin-left: 15px;
 			 			margin-bottom: 0;
+			 			font-family: airbus;
 			 }
 			 h1.seg_tlt{
 			 	float: right;
 			 	margin-right: 15px;
-			 	margin-top: 0;
+			 	margin-top: -10px;
+			 	font-family: avenir_light;
 			 }
 /*__________________________________________*/
 
@@ -166,7 +167,7 @@
 			top:47%;
         } 
 			header .header-content .header-content-inner{
-						min-width:320px;
+						min-width:350px;
 			}                 
 }     
 
@@ -191,6 +192,7 @@
 		 			margin-top:0;
 		 			color: #039CA5;
 		 			font-size: 28px;
+		 			font-family: avenir_light;
 		} 
 		p.text-faded{
 		 	        color: #6B6C6F;
@@ -200,6 +202,7 @@
 		 				font-size: 15px;
 		 				text-align: justify;
 		 				line-height: 28px;
+		 				font-family: avenir_light;
 		}			
  	.panel_uno_der{
  		padding: 30px 0 80px 0;
@@ -220,6 +223,7 @@
 			input{
 				 margin: 14px 0 25px 0;
 				 font-style: normal;
+				 font-family: avenir_light;
 			}
 				input::-webkit-input-placeholder {
 				  color: white;

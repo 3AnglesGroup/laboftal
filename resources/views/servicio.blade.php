@@ -5,7 +5,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading" class="prim_tlt"><i>SERVICIO</i></h1>
+                <h1 id="homeHeading" class="prim_tlt">SERVICIO</h1>
                 <h1 class="seg_tlt">Técnico</h1>
             </div>
         </div>
