@@ -4,7 +4,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading" class="prim_tlt"><i>PRODUCTOS</i></h1>
+                <h1 id="homeHeading" class="prim_tlt">PRODUCTOS</h1>
             </div>
         </div>
     </header>

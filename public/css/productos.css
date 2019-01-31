@@ -1,11 +1,4 @@
 
-/*!
- * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)*/
- /*
- .navbar-default,a{
- 	              -webkit-transition:all .35s;
- 	              -moz-transition:all .35s;
- }  */
 
 @import "menu.css";
 
@@ -93,16 +86,14 @@
 	 			overflow: hidden;
 	 } 
 		.header-content-inner{
-			overflow: hidden;
 			margin: auto;
 		} 
 
-			 header .header-content .header-content-inner h1.prim_tlt{
-			 			font-weight:500;
-			 			margin-top:0;
+			 header .header-content .header-content-inner h1.prim_tlt{			 			 margin-top:0;
 			 			margin-bottom:0;
-			 			font-size:35px;
+			 			font-size:33px;
 			 			margin-bottom: 0;
+            font-family: airbus;
 			 }
 /*__________________________________________*/
 
@@ -225,6 +216,7 @@
                         .single-product:hover .product-hover a.name_product {
                             top: 40%;
                             text-decoration: none;
+                            font-family: avenir_light;
                         }
                         .single-product:hover .product-hover:after{
                             left: 0;
