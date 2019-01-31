@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"><i>NOSOTROS</i></h2>
+                    <h2 class="section-heading">NOSOTROS</h2>
                     <hr class="light">
                     <p class="text-faded prrf_panel_uno">LABORATORIOS OFTÁLMICOS S.A.S. es una organización dedicada a ofrecer a la comunidad oftalmológica desde hace más de 20 años de experiencia en la industria, productos de diagnóstico y alta tecnología, siendo su mayor objetivo brindar una atención personalizada con una marcada orientación a la excelencia en el servicio y la capacitación.</p>
                 </div>
@@ -31,7 +31,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 text-center pull-right txt_panel_dos">
-                    <h2 class="h2_uno"><i>NUESTROS<i></h2>
+                    <h2 class="h2_uno">NUESTROS</h2>
                     <h2 class="h2_dos">Productos</h2>
                     <div class="btn_text_panel_dos"><a href="{{url('productos')}}" style="color: white; text-decoration: none;">ENTRAR</a></div>
                     <div class="btn_fondo_panel_dos"></div>
@@ -45,7 +45,7 @@
         <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <h2 class="section-heading"><i>CONTÁCTANOS</i></h2>
+                        <h2 class="section-heading">CONTÁCTANOS</h2>
                         <hr class="light">
                     </div>
                 </div> <!-- cierre div.(row) -->

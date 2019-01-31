@@ -44,6 +44,7 @@ footer.footer{
 						font-size: 24px;
 						margin-top: 0px;
 		                padding-top: 0px;
+		                font-family: airbus;
 	}
 	.box_md_bloque{
 		display: block;
@@ -62,6 +63,9 @@ footer.footer{
 			line-height: 19px; 
 			margin-left: 0px;
 			padding-left: 0px;
+		}
+		.box_md_txt{
+			font-family: airbus;
 		}
 	div.box_der{
 		padding-top: 50px;

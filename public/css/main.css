@@ -116,7 +116,7 @@
 
 		 header h1.seg_tlt{
 		 	font-family: avenir_light !important;
-		 	margin: 0;
+		 	margin-top: -14px !important;
 		 }
 
 /*__________________________________________*/
@@ -202,13 +202,15 @@
 	h2.section-heading{
 	 			margin-top:0;
 	 			color: #039CA5;
-	 			font-size: 28px;
+	 			font-size: 25px;
+	 			font-family: airbus;
 	}
 
 	hr.light{
 	 	      border-color:#009BA4;
-	 	      margin-top: 0;
-	 	      margin-left: 30px;
+	 	      margin-top: -10px;
+	 	      margin-left: auto;
+	 	      margin-right: auto;
 	}
 
 	p.text-faded{
@@ -218,6 +220,7 @@
 	 				/*border: 2px solid green;*/
 	 				font-size: 15px;
 	 				text-align: justify;
+	 				font-family: avenir_light;
 	}
 /*__________________________________________*/
 
@@ -228,7 +231,7 @@
 
 	/* (h2) títulos de los section*/
 	h2.section-heading{
-	 			font-size: 35px;
+	 			font-size: 32px;
 	}
 
 	p.prrf_panel_uno{
@@ -269,17 +272,21 @@ section.panel_dos{
 
 		.txt_panel_dos .h2_uno{
 			color: white;
-			font-size: 35px;
+			font-size: 30px;
 			margin: 0;
 			padding: 0;
-			float: left;
+			font-family: airbus;		
 		}
 		.txt_panel_dos .h2_dos{
 			color: white;
 			font-style: normal;
-			font-size: 35px;
+			font-size: 30px;
 			margin: 0;
 			padding: 0;
+			font-family: avenir_light;
+			display: block;	
+			margin-top: -10px;
+			text-align: right;
 		}
 		.btn_text_panel_dos{
 			background-color: transparent;
@@ -291,9 +298,10 @@ section.panel_dos{
 			width: 100px;
 			height: 30px;
 			font-size: 16px;
-			margin-left: 14%;
-			margin-top: 20px;
+			margin-left: 18%;
+			margin-top: 10px;
 			text-decoration: none!important;
+			font-family: airbus;
 		}
 			.btn_fondo_panel_dos{
 				padding: 5px 10px;
@@ -303,8 +311,9 @@ section.panel_dos{
 			    height: 30px;
 			    border-radius: 20px;
 			    margin: auto;
-			    margin-top: 20px;
+			    margin-top: 10px;
 			    text-decoration: none;
+			    margin-left: 21%;
 			}
 /*__________________________________________*/
 
@@ -330,11 +339,15 @@ section.panel_dos{
 			font-size: 40px;
 		}
 		.btn_text_panel_dos{
-			height: 35px;
-			margin-left: 18%;
+			height: 31px;
+			margin-left: 25%;
+			font-size: 18px;
+			width: 105px;
 		}
 			.btn_fondo_panel_dos{
-			    height: 35px;
+			    height: 31px;
+			    margin-left: 29%;
+			    width: 105px;
 			}	
 }
 
@@ -382,17 +395,19 @@ section.panel_dos{
 			font-size: 57px;
 		}
 		.btn_text_panel_dos{
-			padding: 7px 15px 4px;
+			padding: 9px 15px 4px;
 			width: 130px;
 			height: 40px;
 			font-size: 18px;
 			margin-left: 29%;
-			margin-top: 30px;
+			margin-top: 20px;
+			font-size: 20px;
 		}
 			.btn_fondo_panel_dos{
 				width: 130px;
 			    height: 40px;
-			    margin-top: 30px;
+			    margin-top: 20px;
+			    margin-left: 32%;
 			}
  }
 
@@ -444,6 +459,7 @@ section.panel_cuatro{
 		input{
 			 margin: 14px 0 25px 0;
 			 font-style: normal;
+			 font-family: avenir_light;
 		}
 			input::-webkit-input-placeholder {
 			  color: white;
@@ -476,6 +492,7 @@ section.panel_cuatro{
 		textarea{
 			 font-style: normal;
 			 height: 60px !important;
+			 font-family: avenir_light;
 		}
 			textarea::-webkit-input-placeholder {
 			color: white;

@@ -33,8 +33,8 @@
                          <i class="fa fa-envelope fa-2x sr-contact"></i></div>
                      <div class="col-lg-10 col-xs-10 box_md_der" style="padding-top: 7px">gerencia@laboftal.com</div>
                  </div>
-                 <div class="box_md_bloque pull-left" style="font-size: 17px; color: #009BA4;">
-                     <i>Encuentranos en Google Maps<i>
+                 <div class="box_md_bloque pull-left box_md_txt" style="font-size: 17px; color: #009BA4;">
+                     Encuentranos en Google Maps
                  </div>
              </div>
 

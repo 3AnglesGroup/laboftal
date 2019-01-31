@@ -41,8 +41,9 @@ Follow me on Twitter @maridlcrmn
  .navbar-default .nav>li>a,
  .navbar-default .nav>li>a:focus{
             text-transform:uppercase;
-            font-size:17px;
+            font-size:14px;
             color:white;
+            font-family: avenir_light;
  }
      
      .navbar-default .nav>li>a:focus:hover,
