@@ -39,7 +39,11 @@
              </div>
 
              <div class="col-lg-3 col-md-12 box_der">
-                 <img src="img/logo_group.png" alt="">
+                <div class="caja_logo_3angles">
+                    <p class="txt_boxder_uno">Created By</p>
+                    <img src="img/logo_group.png" alt="">
+                    <p class="txt_boxder_dos">www.3AnglesGroup.com</p>
+                </div>
              </div>
 
          </div><!-- cierre div.row -->

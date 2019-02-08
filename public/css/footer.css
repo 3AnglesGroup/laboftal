@@ -68,11 +68,25 @@ footer.footer{
 			font-family: airbus;
 		}
 	div.box_der{
-		padding-top: 50px;
+		padding-top: 40px;
+		color: white;
 	}
+		.caja_logo_3angles{
+			width: 200px;
+			margin: auto;
+		}
 		.box_der img{
 			width: 200px;
 		}
+		.caja_logo_3angles .txt_boxder_uno{
+			font-size: 12px;
+			padding-left: 12px;
+			text-align: left;
+		}
+		.caja_logo_3angles .txt_boxder_dos{
+			font-size: 12px;
+			text-align: center;
+		}		
 
  /*__________________________________________*/
 
@@ -107,6 +121,9 @@ footer.footer{
 		overflow: hidden;
 		text-align: center;
 	}
+		.caja_logo_3angles{
+			width: 200px;
+		}	
 		.box_der img{
 			margin-left: 20%;
 			float: none !important;
@@ -152,7 +169,10 @@ footer.footer{
 		padding-top: 20px;
 		overflow: hidden;
 		text-align: center;
-	}
+	}	
+		.caja_logo_3angles{
+			width: 220px !important;
+		}			
 		.box_der img{
 			margin-left: 20%;
 			float: none !important;
@@ -201,10 +221,12 @@ footer.footer{
 		padding-top: 50px;
 		clear: none;
 	}
+		.caja_logo_3angles{
+			width: 100%;
+		}	
 		.box_der img{
 			margin-left: 0px;
 			float: left;
-			width: 100px;
-			border: 1px solid red;
+			width: 100% !important;
 		}
 }
