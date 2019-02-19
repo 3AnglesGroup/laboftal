@@ -24,7 +24,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
-<div class="wrapper">
+<div id="app" class="wrapper">
 
   <!-- Main Header -->
   <header class="main-header">
@@ -156,9 +156,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-
-
-        @yield('content')
+        <router-view></router-view>
 
     <!-- /.content -->
   </div>

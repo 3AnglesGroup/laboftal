@@ -18,7 +18,7 @@ Route::get('/detalle', function () {  return view('detalle');});
 
 //Rutas de administrador
 
-Route::get('administrador',function (){ return view('admin.index');});
+Route::get('administracion',function (){ return view('admin.index');});
 
 
 
