@@ -1763,6 +1763,8 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -1804,6 +1806,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
+toastr__WEBPACK_IMPORTED_MODULE_0___default.a.options = {
+  "closeButton": true,
+  "timeOut": "10000" // "progressBar": true,
+
+};
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -1827,6 +1835,8 @@ __webpack_require__.r(__webpack_exports__);
       this.category.image = this.$refs.file.files[0];
     },
     crearCategoria: function crearCategoria() {
+      var _this2 = this;
+
       var fd = new FormData();
       fd.append('image', this.category.image);
       fd.append('name', this.category.name);
@@ -1836,7 +1846,11 @@ __webpack_require__.r(__webpack_exports__);
           'Content-Type': 'multipart/form-data'
         }
       }).then(function (res) {
-        console.log(res.data);
+        _this2.category = {
+          marca: '',
+          name: ''
+        };
+        toastr__WEBPACK_IMPORTED_MODULE_0___default.a.success('Categoria creada');
       });
     }
   }
@@ -1855,6 +1869,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
+//
 //
 //
 //
@@ -2014,6 +2029,8 @@ toastr__WEBPACK_IMPORTED_MODULE_0___default.a.options = {
       this.form.archivo = this.$refs.archivo.files[0];
     },
     createProduct: function createProduct() {
+      var _this4 = this;
+
       var fd = new FormData();
       fd.append('marca', this.form.marca);
       fd.append('name', this.form.name);
@@ -2027,7 +2044,16 @@ toastr__WEBPACK_IMPORTED_MODULE_0___default.a.options = {
           'Content-Type': 'multipart/form-data'
         }
       }).then(function (res) {
-        console.log(res.data);
+        _this4.form = {
+          marca: '',
+          name: '',
+          subcategory: '',
+          category: '',
+          image: '',
+          archivo: '',
+          description: ''
+        };
+        toastr__WEBPACK_IMPORTED_MODULE_0___default.a.success('Producto creado correctamente');
       });
     }
   }
@@ -2044,6 +2070,8 @@ toastr__WEBPACK_IMPORTED_MODULE_0___default.a.options = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -2086,6 +2114,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
+toastr__WEBPACK_IMPORTED_MODULE_0___default.a.options = {
+  "closeButton": true,
+  "timeOut": "10000" // "progressBar": true,
+
+};
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2108,15 +2142,21 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     createSubcategory: function createSubcategory() {
+      var _this2 = this;
+
       axios.post('api/subcategory/create', this.subcategory).then(function (res) {
-        console.log(res.data);
+        _this2.subcategory = {
+          name: '',
+          category: ''
+        };
+        toastr__WEBPACK_IMPORTED_MODULE_0___default.a.success('Subcategoria creada correctamente');
       });
     },
     getCategories: function getCategories() {
-      var _this2 = this;
+      var _this3 = this;
 
       axios.get('api/categories/' + this.marca).then(function (res) {
-        _this2.categories = res.data;
+        _this3.categories = res.data;
       });
     }
   }
@@ -33346,7 +33386,7 @@ var render = function() {
                   }
                 ],
                 staticClass: "form-control",
-                attrs: { type: "text" },
+                attrs: { type: "text", required: "" },
                 domProps: { value: _vm.category.name },
                 on: {
                   input: function($event) {
@@ -33374,6 +33414,7 @@ var render = function() {
                     }
                   ],
                   staticClass: "form-control",
+                  attrs: { required: "" },
                   on: {
                     change: function($event) {
                       var $$selectedVal = Array.prototype.filter
@@ -33417,7 +33458,7 @@ var render = function() {
               _c("input", {
                 ref: "file",
                 staticClass: "form-control",
-                attrs: { type: "file", id: "file" },
+                attrs: { type: "file", id: "file", required: "" },
                 on: { change: _vm.imgCategoria }
               }),
               _vm._v(" "),
@@ -33558,6 +33599,7 @@ var render = function() {
                               staticClass: "form-control",
                               attrs: {
                                 type: "text",
+                                required: "",
                                 placeholder: "Ingresar nombre del producto"
                               },
                               domProps: { value: _vm.form.name },
@@ -33591,6 +33633,7 @@ var render = function() {
                                   }
                                 ],
                                 staticClass: "form-control",
+                                attrs: { required: "" },
                                 on: {
                                   change: [
                                     function($event) {
@@ -33649,6 +33692,7 @@ var render = function() {
                                   }
                                 ],
                                 staticClass: "form-control",
+                                attrs: { required: "" },
                                 on: {
                                   change: [
                                     function($event) {
@@ -33707,6 +33751,7 @@ var render = function() {
                                   }
                                 ],
                                 staticClass: "form-control",
+                                attrs: { required: "" },
                                 on: {
                                   change: function($event) {
                                     var $$selectedVal = Array.prototype.filter
@@ -33729,7 +33774,7 @@ var render = function() {
                                 }
                               },
                               [
-                                _c("option", { attrs: { value: "CC" } }, [
+                                _c("option", { attrs: { value: "" } }, [
                                   _vm._v("Seleccione la subcategoria")
                                 ]),
                                 _vm._v(" "),
@@ -33757,9 +33802,11 @@ var render = function() {
                             _c("input", {
                               ref: "file",
                               staticClass: "form-control",
-                              attrs: { type: "file", id: "file" },
+                              attrs: { type: "file", id: "file", required: "" },
                               on: { change: _vm.img }
-                            })
+                            }),
+                            _vm._v(" "),
+                            _c("small", [_vm._v("Tamaño 689 x 689")])
                           ]),
                           _vm._v(" "),
                           _c("div", { staticClass: "form-group col-md-6" }, [
@@ -33772,7 +33819,11 @@ var render = function() {
                             _c("input", {
                               ref: "archivo",
                               staticClass: "form-control",
-                              attrs: { type: "file", id: "archivo" },
+                              attrs: {
+                                type: "file",
+                                id: "archivo",
+                                required: ""
+                              },
                               on: { change: _vm.archivo }
                             })
                           ]),
@@ -33923,7 +33974,7 @@ var render = function() {
                   }
                 ],
                 staticClass: "form-control",
-                attrs: { type: "text" },
+                attrs: { type: "text", required: "" },
                 domProps: { value: _vm.subcategory.name },
                 on: {
                   input: function($event) {
@@ -33951,6 +34002,7 @@ var render = function() {
                     }
                   ],
                   staticClass: "form-control",
+                  attrs: { required: "" },
                   on: {
                     change: [
                       function($event) {
@@ -34000,6 +34052,7 @@ var render = function() {
                     }
                   ],
                   staticClass: "form-control",
+                  attrs: { required: "" },
                   on: {
                     change: function($event) {
                       var $$selectedVal = Array.prototype.filter

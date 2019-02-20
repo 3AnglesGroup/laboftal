@@ -9,19 +9,19 @@
         <div class="box-body">
           <div class="form-group col-md-6">
             <label for="exampleInputPassword1">Nombre</label>
-            <input type="text" v-model="category.name" class="form-control" >
+            <input type="text" v-model="category.name" class="form-control" required>
           </div>
 
           <div class="form-group col-md-6">
             <label>Marca</label>
-            <select class="form-control" v-model="category.marca">
+            <select class="form-control" v-model="category.marca" required>
               <option  value="">Seleccione...</option>
               <option v-for="marca in marcas" v-bind:value="marca.id">{{marca.name}}</option>
             </select>
           </div>
           <div class="form-group col-md-6">
             <label for="exampleInputPassword1">Imagen</label>
-            <input type="file" id="file" ref="file" @change="imgCategoria" class="form-control" >
+            <input type="file" id="file" ref="file" @change="imgCategoria" required class="form-control" >
             <small>Tamaño 689 x 689</small>
           </div>
         </div>
@@ -40,6 +40,12 @@
 </template>
 
 <script>
+import toastr from 'toastr'
+toastr.options ={
+  "closeButton": true,
+  "timeOut": "10000",
+  // "progressBar": true,
+};
 export default {
   data(){
     return{
@@ -72,7 +78,11 @@ export default {
               'Content-Type': 'multipart/form-data'
             }
         }).then(res=>{
-        console.log(res.data);
+          this.category ={
+            marca:'',
+            name:''
+          }
+        toastr.success('Categoria creada');
       });
 
     }

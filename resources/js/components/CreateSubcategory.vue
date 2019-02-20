@@ -9,18 +9,18 @@
         <div class="box-body">
           <div class="form-group col-md-6">
             <label for="exampleInputPassword1">Nombre</label>
-            <input type="text" v-model="subcategory.name" class="form-control" >
+            <input type="text" v-model="subcategory.name" class="form-control" required>
           </div>
           <div class="form-group col-md-6">
             <label>Marca</label>
-            <select class="form-control" @change="getCategories"  v-model="marca">
+            <select class="form-control" @change="getCategories"  v-model="marca" required>
               <option  value="">Seleccione...</option>
               <option v-for="marca in marcas"  v-bind:value="marca.id">{{marca.name}}</option>
             </select>
           </div>
           <div class="form-group col-md-6">
             <label>Categoria</label>
-            <select class="form-control" v-model="subcategory.category">
+            <select class="form-control" v-model="subcategory.category" required>
               <option  value="">Seleccione...</option>
               <option  v-for="category in categories"  v-bind:value="category.id">{{category.name}}</option>
             </select>
@@ -41,6 +41,12 @@
 </template>
 
 <script>
+import toastr from 'toastr'
+toastr.options ={
+  "closeButton": true,
+  "timeOut": "10000",
+  // "progressBar": true,
+};
 export default {
   data(){
     return{
@@ -64,7 +70,11 @@ export default {
   methods:{
     createSubcategory(){
       axios.post('api/subcategory/create',this.subcategory).then(res=>{
-        console.log(res.data);
+        this.subcategory = {
+          name:'',
+          category:''
+        }
+        toastr.success('Subcategoria creada correctamente');
       });
     },
     getCategories(){

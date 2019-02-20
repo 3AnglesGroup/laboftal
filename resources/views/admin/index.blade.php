@@ -20,6 +20,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="admin/css/AdminLTE.min.css">
 
   <link rel="stylesheet" href="admin/css/skins/skin-blue.min.css">
+  <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>

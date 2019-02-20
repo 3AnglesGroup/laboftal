@@ -38,11 +38,11 @@
               <div class="box-body">
                 <div class="form-group col-md-6">
                   <label for="exampleInputEmail1">Nombre</label>
-                  <input type="text" class="form-control" v-model="form.name"   placeholder="Ingresar nombre del producto">
+                  <input type="text" class="form-control" v-model="form.name" required   placeholder="Ingresar nombre del producto">
                 </div>
                 <div class="form-group col-md-6">
                   <label>Marca</label>
-                  <select class="form-control" @change="getCategories" v-model="form.marca"  >
+                  <select class="form-control" @change="getCategories" required v-model="form.marca"  >
                     <option value="">Seleccione la marca</option>
                     <option v-for="marca in marcas" v-bind:value="marca.id">{{marca.name}}</option>
                   </select>
@@ -50,25 +50,26 @@
 
                 <div class="form-group col-md-6">
                   <label>Categoria</label>
-                  <select class="form-control" @change="getsubcategory" v-model="form.category">
+                  <select class="form-control" required @change="getsubcategory" v-model="form.category">
                     <option  value="">Seleccione...</option>
                     <option  v-for="category in categories"  v-bind:value="category.id">{{category.name}}</option>
                   </select>
                 </div>
                 <div class="form-group col-md-6">
                   <label>Subcategoria</label>
-                  <select class="form-control" v-model="form.subcategory" >
-                  <option value="CC">Seleccione la subcategoria</option>
+                  <select class="form-control" required v-model="form.subcategory" >
+                  <option value="">Seleccione la subcategoria</option>
                   <option v-bind:value="subcategory.id" v-for="subcategory in subcategories">{{subcategory.name}}</option>
                   </select>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="exampleInputEmail1">Imagen</label>
-                  <input type="file" id="file" ref="file" @change="img"  class="form-control">
+                  <input type="file" id="file" required ref="file" @change="img"  class="form-control">
+                  <small>Tamaño 689 x 689</small>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="exampleInputEmail1">Especificación Técnica</label>
-                  <input type="file" id="archivo" ref="archivo" @change="archivo" class="form-control">
+                  <input type="file" id="archivo" required ref="archivo" @change="archivo" class="form-control">
                 </div>
                 <div class="form-group col-md-12">
                   <label for="exampleInputPassword1">Descripcion</label>
@@ -170,7 +171,17 @@ toastr.options ={
                     'Content-Type': 'multipart/form-data'
                   }
               }).then(res=>{
-              console.log(res.data);
+                this.form = {
+                  marca:'',
+                  name:'',
+                  subcategory:'',
+                  category:'',
+                  image:'',
+                  archivo:'',
+                  description:''
+                }
+              toastr.success('Producto creado correctamente');
+
             });
 
           }
