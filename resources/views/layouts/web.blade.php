@@ -15,11 +15,13 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 
 <!-- ______________________________________________________________________-->
 
 <body id="page-top">
+  <div id="app" style="height:100%">
     <div id="home"></div>
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -59,13 +61,14 @@
    @include('layouts.footer')
 
 <!-- _________________________________________________________________-->
-
+</div>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/creative.min.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 

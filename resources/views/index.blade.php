@@ -13,7 +13,6 @@
     </header>
 
 <!-- ______________________________________________________________________-->
-
     <section class="panel_uno" id="">
         <div class="container">
             <div class="row">
@@ -33,7 +32,7 @@
                 <div class="col-lg-4 text-center pull-right txt_panel_dos">
                     <h2 class="h2_uno">NUESTROS</h2>
                     <h2 class="h2_dos">Productos</h2>
-                    <div class="btn_text_panel_dos"><a href="{{url('productos')}}" style="color: white; text-decoration: none;">ENTRAR</a></div>
+                    <div class="btn_text_panel_dos"><a href="{{url('products')}}" style="color: white; text-decoration: none;">ENTRAR</a></div>
                     <div class="btn_fondo_panel_dos"></div>
                 </div>
             </div>
@@ -76,11 +75,8 @@
     </section>
 <!-- _________________________________________________________________-->
 
-    <section class="bloque_separador">
-
-    </section>
+    <section class="bloque_separador"></section>
 @stop
-
 
 @push('style')
 <link href="css/main.css" rel="stylesheet">
