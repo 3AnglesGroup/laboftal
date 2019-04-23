@@ -34652,7 +34652,7 @@ var render = function() {
                         "a",
                         {
                           staticClass: "name_product",
-                          attrs: { href: "/detalle" }
+                          attrs: { href: "/descripcion" }
                         },
                         [_vm._v(" " + _vm._s(categoria.name))]
                       )

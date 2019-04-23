@@ -4,6 +4,7 @@
 
 Route::get('/', function () {  return view('index');});
 Route::get('/products', function () {  return view('productos');});
+Route::get('/descripcion', function () {  return view('subcategorias');});
 Route::get('/servicio', function () {  return view('servicio');});
 Route::get('/detalle', function () {  return view('detalle');});
 
