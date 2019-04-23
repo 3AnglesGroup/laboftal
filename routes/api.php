@@ -23,3 +23,4 @@ Route::get('subcategories/{id}','CategoryController@subcategories');
 Route::post('category/create','CategoryController@store');
 Route::post('subcategory/create','SubcategoryController@store');
 Route::post('product/create','ProductController@store');
+Route::get('products/{id}','ProductController@show');

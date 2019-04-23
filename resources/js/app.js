@@ -26,6 +26,7 @@ Vue.component('category-create', require('./components/CreateCategory.vue').defa
 Vue.component('subcategory-create', require('./components/CreateSubcategory.vue').default);
 Vue.component('categories', require('./web/Categories.vue').default);
 Vue.component('productos', require('./web/Productos.vue').default);
+Vue.component('descripcion', require('./web/Descripcion.vue').default);
 
 import Vue from 'vue'
 import Router from 'vue-router'

@@ -21,4 +21,8 @@ class ProductController extends Controller
 
       return 200;
     }
+
+    public function show($id){
+      return Product::where('subcategory_id',$id)->get();
+    }
 }
