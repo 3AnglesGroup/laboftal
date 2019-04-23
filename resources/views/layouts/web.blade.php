@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     @stack('style')
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
