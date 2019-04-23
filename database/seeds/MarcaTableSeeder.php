@@ -21,14 +21,19 @@ class MarcaTableSeeder extends Seeder
       $marca->save();
 
       $marca = new Marca();
-      $marca->name = 'Lightmed';
-      $marca->save();
-      $marca = new Marca();
       $marca->name = 'Keeler';
       $marca->save();
 
       $marca = new Marca();
+      $marca->name = 'Lightmed';
+      $marca->save();
+      
+
+      $marca = new Marca();
       $marca->name = 'Ocular';
+      $marca->save();
+      $marca = new Marca();
+      $marca->name = 'Cima';
       $marca->save();
     }
 }
