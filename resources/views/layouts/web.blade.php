@@ -38,7 +38,7 @@
                         <a class="page-scroll" href="/#home">HOME</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#productos">PRODUCTOS</a>
+                        <a class="page-scroll" href="/products">PRODUCTOS</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="{{url('servicio')}}">SERVICIO TÉCNICO</a>
