@@ -1,5 +1,4 @@
 
-
 @import "menu.css";
 
 
@@ -80,20 +79,23 @@
  	    background-position:center;
  	    color:#fff;
  }
+
 	 div.header-content{
 	 			padding:130px 15px 100px 15px;
 	 			/*border: 1px solid yellow;*/
 	 			overflow: hidden;
 	 } 
 		.header-content-inner{
+			overflow: hidden;
 			margin: auto;
 		} 
 
-			 header .header-content .header-content-inner h1.prim_tlt{			 			 margin-top:0;
+			 header .header-content .header-content-inner h1.prim_tlt{
+			 			font-weight:500;
+			 			margin-top:0;
 			 			margin-bottom:0;
-			 			font-size:33px;
+			 			font-size:35px;
 			 			margin-bottom: 0;
-            font-family: airbus;
 			 }
 /*__________________________________________*/
 
@@ -142,12 +144,21 @@
  }
 	div.logo_marca{
 		border: 1px solid #707070;
-		height: 45px;
+		height: 46px;
 		border-radius: 25px;
 		margin-bottom: 6px;
 		margin-left: auto;
 		margin-right: auto;
+    text-align: center;
+    padding-top: 1px;
+    /*overflow: hidden;*/
 	}		
+
+  div.logo_marca img{
+    width: 130px;
+    margin: auto;
+  }
+ 
 
 /*______________________________________________________________________*/
 /*______________________________________________________________________*/
@@ -167,12 +178,10 @@
         .single-product {
             overflow: hidden;
             margin-bottom: 20px;
-            /*border: 2px solid orange;*/
         }
                          
             .product-f-image {
                 position: relative;
-                /*border: 3px solid red;*/
             }                
                 .product-hover {
                     height: 100%;
@@ -216,7 +225,6 @@
                         .single-product:hover .product-hover a.name_product {
                             top: 40%;
                             text-decoration: none;
-                            font-family: avenir_light;
                         }
                         .single-product:hover .product-hover:after{
                             left: 0;
@@ -225,6 +233,7 @@
                             .product-hover a.name_product {
                                 top: -25%;
                             }
+
 
                           @media(max-width:550px) {
                               .product-hover a {
@@ -247,6 +256,8 @@
                           }                                            
 /*______________________________________________________________________*/
 /*______________________________________________________________________*/
+
+
 
 
 

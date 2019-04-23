@@ -34415,37 +34415,67 @@ var staticRenderFns = [
           _c(
             "div",
             { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [_c("img", { attrs: { src: "", alt: "" } })]
+            [
+              _c("img", {
+                staticClass: "topcon",
+                attrs: { src: "img/logos_productos/logo_topcon.png", alt: "" }
+              })
+            ]
           ),
           _vm._v(" "),
           _c(
             "div",
             { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [_c("img", { attrs: { src: "", alt: "" } })]
+            [
+              _c("img", {
+                staticClass: "elektron",
+                attrs: { src: "img/logos_productos/logo_elektron.png", alt: "" }
+              })
+            ]
           ),
           _vm._v(" "),
           _c(
             "div",
             { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [_c("img", { attrs: { src: "", alt: "" } })]
+            [
+              _c("img", {
+                staticClass: "keeler",
+                attrs: { src: "img/logos_productos/logo_keeler.png", alt: "" }
+              })
+            ]
           ),
           _vm._v(" "),
           _c(
             "div",
             { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [_c("img", { attrs: { src: "", alt: "" } })]
+            [
+              _c("img", {
+                staticClass: "lightned",
+                attrs: { src: "img/logos_productos/logo_lightmed.png", alt: "" }
+              })
+            ]
           ),
           _vm._v(" "),
           _c(
             "div",
             { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [_c("img", { attrs: { src: "", alt: "" } })]
+            [
+              _c("img", {
+                staticClass: "ocular",
+                attrs: { src: "img/logos_productos/logo_ocular.png", alt: "" }
+              })
+            ]
           ),
           _vm._v(" "),
           _c(
             "div",
             { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [_c("img", { attrs: { src: "", alt: "" } })]
+            [
+              _c("img", {
+                staticClass: "cima",
+                attrs: { src: "img/logos_productos/logo_cima.png", alt: "" }
+              })
+            ]
           )
         ])
       ])
@@ -49690,8 +49720,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/jhonalvaroangulorojano/Documents/Projects/laboftal/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/jhonalvaroangulorojano/Documents/Projects/laboftal/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/jhonalvaroangulorojano/3angles/laboftal/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/jhonalvaroangulorojano/3angles/laboftal/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
