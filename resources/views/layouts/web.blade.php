@@ -30,13 +30,13 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">nav</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="/" ><img class="logo_empresa" src="img/logo.png"></a>
+                <a class="navbar-brand page-scroll" href="/" ><img class="logo_empresa" src="/img/logo.png"></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="/#home">HOME</a>
+                        <a class="page-scroll" href="/">HOME</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/products">PRODUCTOS</a>
@@ -63,13 +63,13 @@
 
 <!-- _________________________________________________________________-->
 </div>
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/creative.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="/vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="/js/creative.min.js"></script>
+    <script src="/js/app.js"></script>
 
 </body>
 

@@ -2,7 +2,7 @@
     <div class="container">
          <div class="row">
              <div class="col-lg-4 col-md-6 text-center box_izq">
-                 <img src="img/logo.png" alt="Logo Laboratorios Oftalmológicos" class="logo_laboratorio">
+                 <img src="/img/logo.png" alt="Logo Laboratorios Oftalmológicos" class="logo_laboratorio">
                  <div class="row row_logos">
                      <div class="logos_redes logo_facebook">
                          <i class="fa fa-facebook fa-2x sr-contact"></i>
@@ -41,7 +41,7 @@
              <div class="col-lg-3 col-md-12 box_der">
                 <div class="caja_logo_3angles">
                     <p class="txt_boxder_uno">Created By</p>
-                    <img class="logo3" src="img/logo_group.png" alt="">
+                    <img class="logo3" src="/img/logo_group.png" alt="">
                     <p class="txt_boxder_dos">www.3AnglesGroup.com</p>
                 </div>
              </div>

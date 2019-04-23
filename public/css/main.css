@@ -169,7 +169,7 @@
 						}					
 
 						header .header-content .header-content-inner h1{
-									font-size:50px;
+									font-size:53px;
 									font-family: airbus;
 						}
 						h1.seg_tlt{
@@ -178,8 +178,8 @@
 						}
 
 						header .header-content .header-content-inner p{
-									font-size:19px;
-									max-width:80%;
+									font-size:30px;
+									max-width:100%;
 									font-family: avenir_light;
 						}
  } 

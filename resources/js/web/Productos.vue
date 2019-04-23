@@ -47,7 +47,7 @@
                       <div class="product-f-image">
                           <img :src="categoria.image" width="100%" alt="">
                           <div class="product-hover">
-                              <a href="/descripcion" class="name_product"> {{categoria.name}}</a>
+                              <a :href="'/descripcion/' + categoria.id" class="name_product"> {{categoria.name}}</a>
                           </div>
                       </div>
                   </div>
