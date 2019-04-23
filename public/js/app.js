@@ -2304,6 +2304,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -34402,81 +34422,128 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._m(0), _vm._v(" "), _c("categories")], 1)
+  return _vm._m(0)
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "panel_uno", attrs: { id: "" } }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c(
-            "div",
-            { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [
-              _c("img", {
-                staticClass: "topcon",
-                attrs: { src: "img/logos_productos/logo_topcon.png", alt: "" }
-              })
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [
-              _c("img", {
-                staticClass: "elektron",
-                attrs: { src: "img/logos_productos/logo_elektron.png", alt: "" }
-              })
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [
-              _c("img", {
-                staticClass: "keeler",
-                attrs: { src: "img/logos_productos/logo_keeler.png", alt: "" }
-              })
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [
-              _c("img", {
-                staticClass: "lightned",
-                attrs: { src: "img/logos_productos/logo_lightmed.png", alt: "" }
-              })
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [
-              _c("img", {
-                staticClass: "ocular",
-                attrs: { src: "img/logos_productos/logo_ocular.png", alt: "" }
-              })
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
-            [
-              _c("img", {
-                staticClass: "cima",
-                attrs: { src: "img/logos_productos/logo_cima.png", alt: "" }
-              })
-            ]
-          )
+    return _c("div", [
+      _c("section", { staticClass: "panel_uno", attrs: { id: "" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
+              [
+                _c("a", { attrs: { href: "" } }, [
+                  _c("img", {
+                    staticClass: "topcon",
+                    attrs: {
+                      src: "img/logos_productos/logo_topcon.png",
+                      alt: ""
+                    }
+                  })
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
+              [
+                _c("img", {
+                  staticClass: "elektron",
+                  attrs: {
+                    src: "img/logos_productos/logo_elektron.png",
+                    alt: ""
+                  }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
+              [
+                _c("img", {
+                  staticClass: "keeler",
+                  attrs: { src: "img/logos_productos/logo_keeler.png", alt: "" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
+              [
+                _c("img", {
+                  staticClass: "lightned",
+                  attrs: {
+                    src: "img/logos_productos/logo_lightmed.png",
+                    alt: ""
+                  }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
+              [
+                _c("img", {
+                  staticClass: "ocular",
+                  attrs: { src: "img/logos_productos/logo_ocular.png", alt: "" }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6" },
+              [
+                _c("img", {
+                  staticClass: "cima",
+                  attrs: { src: "img/logos_productos/logo_cima.png", alt: "" }
+                })
+              ]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "panel_dos", attrs: { id: "" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "product-carousel" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "single-product col-lg-4 col-md-4 col-sm-4 col-xs-6"
+                },
+                [
+                  _c("div", { staticClass: "product-f-image" }, [
+                    _c("img", {
+                      attrs: { src: "img/producto.jpg", width: "100%", alt: "" }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "product-hover" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "name_product",
+                          attrs: { href: "/detalle" }
+                        },
+                        [_vm._v(" DIAGNÓSTICO")]
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
         ])
       ])
     ])

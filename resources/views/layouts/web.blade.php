@@ -29,7 +29,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">nav</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" ><img class="logo_empresa" src="img/logo.png"></a>
+                <a class="navbar-brand page-scroll" href="/" ><img class="logo_empresa" src="img/logo.png"></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
