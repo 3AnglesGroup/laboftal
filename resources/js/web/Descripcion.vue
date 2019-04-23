@@ -9,7 +9,7 @@
                
                 <div v-for="sub in subcategorias" :key="sub.id" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                     <div class="categoria_productos">
-                        <p>{{sub.name}}</p>
+                         <a style="text-decoration:none" href=""><p>{{sub.name}}</p></a>
                     </div>
                 </div>
                
@@ -28,7 +28,10 @@
                 <div v-for="product in products" :key="product.id" class="product-carousel">
                     <div class="single-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                         <div class="product-f-image">
-                            <img src="/img/producto.jpg" width="100%" alt="">
+                            <a href="#">
+                                <img :src="'/' + product.image" width="100%" alt="">
+                            </a>
+                            
                             <h3>{{product.name}}</h3>
                         </div>
                     </div>
@@ -68,3 +71,11 @@ export default {
     
 }
 </script>
+
+<style>
+a
+{ 
+ color: #039CA5;
+} 
+</style>
+
