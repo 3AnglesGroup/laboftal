@@ -72,6 +72,7 @@
  	margin-bottom:20px;
  }
 
+ 
 
 
 /*____________________________________________________________________*/
@@ -118,6 +119,8 @@
 		 	font-family: avenir_light !important;
 		 	margin-top: -14px !important;
 		 }
+
+		 
 
 /*__________________________________________*/
 
@@ -180,6 +183,8 @@
 									font-family: avenir_light;
 						}
  } 
+
+ 
 
 /*__________________________________________*/
 
@@ -598,4 +603,6 @@ section.bloque_separador{
  		border-radius:300px;
  		font-weight:700;
  		text-transform:uppercase;
-    }
+		}
+		
+		

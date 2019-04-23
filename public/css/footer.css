@@ -5,6 +5,8 @@ footer.footer{
 			background: #14406C;
 }
 
+
+
 	footer.footer img{
 		display: block;
 		clear: both;
@@ -87,6 +89,8 @@ footer.footer{
 			font-size: 12px;
 			text-align: center;
 		}		
+
+		
 
  /*__________________________________________*/
 
@@ -227,6 +231,6 @@ footer.footer{
 		.box_der img{
 			margin-left: 0px;
 			float: left;
-			width: 100% !important;
+			width: 60% !important;
 		}
 }

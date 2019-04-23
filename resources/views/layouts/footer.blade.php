@@ -41,7 +41,7 @@
              <div class="col-lg-3 col-md-12 box_der">
                 <div class="caja_logo_3angles">
                     <p class="txt_boxder_uno">Created By</p>
-                    <img src="img/logo_group.png" alt="">
+                    <img class="logo3" src="img/logo_group.png" alt="">
                     <p class="txt_boxder_dos">www.3AnglesGroup.com</p>
                 </div>
              </div>
