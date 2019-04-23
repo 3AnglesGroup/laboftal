@@ -45,7 +45,7 @@
               <div class="product-carousel">
                   <div v-for="categoria in categorias " :key="categoria.id" class="single-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                       <div class="product-f-image">
-                          <img src="img/producto.jpg" width="100%" alt="">
+                          <img :src="categoria.image" width="100%" alt="">
                           <div class="product-hover">
                               <a href="/detalle" class="name_product"> {{categoria.name}}</a>
                           </div>

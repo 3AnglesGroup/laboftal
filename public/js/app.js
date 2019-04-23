@@ -34644,7 +34644,7 @@ var render = function() {
                 [
                   _c("div", { staticClass: "product-f-image" }, [
                     _c("img", {
-                      attrs: { src: "img/producto.jpg", width: "100%", alt: "" }
+                      attrs: { src: categoria.image, width: "100%", alt: "" }
                     }),
                     _vm._v(" "),
                     _c("div", { staticClass: "product-hover" }, [
