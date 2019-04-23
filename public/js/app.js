@@ -2352,7 +2352,7 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   created: function created() {
-    this.getCategorias();
+    this.getCategorias(1);
   },
   methods: {
     getCategorias: function getCategorias(id) {
