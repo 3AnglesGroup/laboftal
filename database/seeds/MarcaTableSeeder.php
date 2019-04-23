@@ -23,6 +23,9 @@ class MarcaTableSeeder extends Seeder
       $marca = new Marca();
       $marca->name = 'Lightmed';
       $marca->save();
+      $marca = new Marca();
+      $marca->name = 'Keeler';
+      $marca->save();
 
       $marca = new Marca();
       $marca->name = 'Ocular';
