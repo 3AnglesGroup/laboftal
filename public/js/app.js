@@ -49410,7 +49410,8 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: [{
     path: '/product-create',
     component: __webpack_require__(/*! ./components/CreateProduct.vue */ "./resources/js/components/CreateProduct.vue").default
-  }]
+  }],
+  mode: 'history'
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',

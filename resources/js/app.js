@@ -38,7 +38,8 @@ let router = new Router({
           component: require ('./components/CreateProduct.vue').default
         }
 
-      ]
+      ],
+  mode: 'history'
 });
 
 const app = new Vue({
