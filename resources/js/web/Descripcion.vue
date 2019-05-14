@@ -54,7 +54,7 @@ export default {
     created(){
         this.getSubcategoria()
         this.getProducts()
-        console.log(this.$route.path);
+       this.getProducts(1)
         
         
     },

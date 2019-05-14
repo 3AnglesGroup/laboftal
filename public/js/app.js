@@ -2340,7 +2340,7 @@ __webpack_require__.r(__webpack_exports__);
   created: function created() {
     this.getSubcategoria();
     this.getProducts();
-    console.log(this.$route.path);
+    this.getProducts(1);
   },
   methods: {
     getSubcategoria: function getSubcategoria() {
