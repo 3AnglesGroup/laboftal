@@ -32631,41 +32631,38 @@ var render = function() {
     _vm._v(" "),
     _c("section", { staticClass: "panel_dos", attrs: { id: "" } }, [
       _c("div", { staticClass: "container" }, [
-        _c(
-          "div",
-          { staticClass: "row" },
-          _vm._l(_vm.products, function(product) {
-            return _c(
-              "div",
-              { key: product.id, staticClass: "product-carousel" },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "single-product col-lg-4 col-md-4 col-sm-4 col-xs-6"
-                  },
-                  [
-                    _c("div", { staticClass: "product-f-image" }, [
-                      _c("a", { attrs: { href: "/detalle" } }, [
-                        _c("img", {
-                          attrs: {
-                            src: "/" + product.image,
-                            width: "100%",
-                            alt: ""
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("h3", [_vm._v(_vm._s(product.name))])
-                    ])
-                  ]
-                )
-              ]
-            )
-          }),
-          0
-        )
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "product-carousel" },
+            _vm._l(_vm.products, function(product) {
+              return _c(
+                "div",
+                {
+                  key: product.id,
+                  staticClass:
+                    "single-product col-lg-4 col-md-4 col-sm-4 col-xs-6"
+                },
+                [
+                  _c("div", { staticClass: "product-f-image" }, [
+                    _c("a", { attrs: { href: "/detalle" } }, [
+                      _c("img", {
+                        attrs: {
+                          src: "/" + product.image,
+                          width: "100%",
+                          alt: ""
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", [_vm._v(_vm._s(product.name))])
+                  ])
+                ]
+              )
+            }),
+            0
+          )
+        ])
       ])
     ])
   ])

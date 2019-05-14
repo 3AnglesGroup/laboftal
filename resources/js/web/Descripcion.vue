@@ -25,8 +25,8 @@
         <div class="container">
             <div class="row">
                 
-                <div v-for="product in products" :key="product.id" class="product-carousel">
-                    <div class="single-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                <div  class="product-carousel">
+                    <div v-for="product in products" :key="product.id" class="single-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                         <div class="product-f-image">
                             <a href="/detalle">
                                 <img :src="'/' + product.image" width="100%" alt="">
