@@ -55,10 +55,13 @@ export default {
     created(){
         this.getSubcategoria()
         this.getProducts()
+        console.log(this.$route.path);
+        
+        
     },
     methods:{
         getSubcategoria(){
-            axios.get('/api/subcategories/'+1).then(res=>{
+            axios.get('/api'+this.$route.path).then(res=>{
                 this.subcategorias = res.data;
             });
         },

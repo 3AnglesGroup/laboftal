@@ -2341,12 +2341,13 @@ __webpack_require__.r(__webpack_exports__);
   created: function created() {
     this.getSubcategoria();
     this.getProducts();
+    console.log(this.$route.path);
   },
   methods: {
     getSubcategoria: function getSubcategoria() {
       var _this = this;
 
-      axios.get('/api/subcategories/' + 1).then(function (res) {
+      axios.get('/api' + this.$route.path).then(function (res) {
         _this.subcategorias = res.data;
       });
     },

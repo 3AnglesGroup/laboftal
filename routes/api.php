@@ -19,7 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('marcas','MarcasController@index');
 Route::get('categories/{id}','CategoryController@categories');
-Route::get('subcategories/{id}','CategoryController@subcategories');
+Route::get('descripcion/{id}','CategoryController@subcategories');
 Route::post('category/create','CategoryController@store');
 Route::post('subcategory/create','SubcategoryController@store');
 Route::post('product/create','ProductController@store');
