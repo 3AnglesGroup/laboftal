@@ -9,7 +9,7 @@
                
                 <div v-for="sub in subcategorias" :key="sub.id" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                     <div class="categoria_productos">
-                         <a style="text-decoration:none" href="" @click.prevent="getProducts(1)"><p>{{sub.name}}</p></a>
+                         <a style="text-decoration:none" href="" @click.prevent="getProducts(sub.id)"><p>{{sub.name}}</p></a>
                     </div>
                 </div>
                
