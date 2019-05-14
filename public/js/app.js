@@ -2330,7 +2330,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2351,10 +2350,10 @@ __webpack_require__.r(__webpack_exports__);
         _this.subcategorias = res.data;
       });
     },
-    getProducts: function getProducts() {
+    getProducts: function getProducts(id) {
       var _this2 = this;
 
-      axios.get('/api/products/' + 1).then(function (res) {
+      axios.get('/api/products/' + id).then(function (res) {
         _this2.products = res.data;
       });
     }
@@ -32611,7 +32610,13 @@ var render = function() {
                     "a",
                     {
                       staticStyle: { "text-decoration": "none" },
-                      attrs: { href: "" }
+                      attrs: { href: "" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.getProducts(1)
+                        }
+                      }
                     },
                     [_c("p", [_vm._v(_vm._s(sub.name))])]
                   )

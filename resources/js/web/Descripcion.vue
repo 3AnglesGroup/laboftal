@@ -9,7 +9,7 @@
                
                 <div v-for="sub in subcategorias" :key="sub.id" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                     <div class="categoria_productos">
-                         <a style="text-decoration:none" href=""><p>{{sub.name}}</p></a>
+                         <a style="text-decoration:none" href="" @click.prevent="getProducts(1)"><p>{{sub.name}}</p></a>
                     </div>
                 </div>
                
@@ -31,7 +31,6 @@
                             <a href="/detalle">
                                 <img :src="'/' + product.image" width="100%" alt="">
                             </a>
-                            
                             <h3>{{product.name}}</h3>
                         </div>
                     </div>
@@ -65,8 +64,8 @@ export default {
                 this.subcategorias = res.data;
             });
         },
-        getProducts(){
-            axios.get('/api/products/'+1).then(res=>{
+        getProducts(id){
+            axios.get('/api/products/'+id).then(res=>{
                 this.products = res.data;
             });
         }
