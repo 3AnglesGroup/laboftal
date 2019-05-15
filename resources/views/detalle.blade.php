@@ -5,14 +5,14 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading" class="prim_tlt"><i>SL-2G</i></h1>
+                <h1 id="homeHeading" class="prim_tlt"><i>{{$product->name}}</i></h1>
             </div>
         </div>
     </header>
 
 <!-- ______________________________________________________________________-->
 
-    <section class="panel_categorias" id="">
+    <!-- <section class="panel_categorias" id="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 <!-- ______________________________________________________________________-->
 
@@ -55,11 +55,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-5 panel_uno_izq">
-                    <img src="img/producto.jpg" width="100%" alt="">
+                    <img src="/{{$product->image}}" width="100%" alt="">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 panel_uno_der">
-                    <h2 class="section-heading">SL-2G</h2>
-                    <p class="text-faded prrf_panel_uno">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nesciunt cum magnam, iusto quasi sapiente, nostrum harum aspernatur animi sequi in, eum perspiciatis quos recusandae architecto modi laudantium fuga. Consequuntur?</p>
+                    <h2 class="section-heading">{{$product->name}}</h2>
+                    <p class="text-faded prrf_panel_uno">{{$product->description}}</p>
                     <p class="especf_tecnicas"><i>ESPECIFICACIONES TÉCNICAS</i>
                     </p>
                     <button class="btn pull-right">Descargar</button>
@@ -96,5 +96,5 @@
 
 @stop
 @push('style')
- <link href="css/especf_producto.css" rel="stylesheet">
+ <link href="/css/especf_producto.css" rel="stylesheet">
 @endpush

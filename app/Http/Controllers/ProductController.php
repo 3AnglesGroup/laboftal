@@ -25,4 +25,11 @@ class ProductController extends Controller
     public function show($id){
       return Product::where('subcategory_id',$id)->get();
     }
+
+    public function view($id){
+
+      $product = Product::find($id);
+      return view('detalle')->with('product',$product);
+
+    }
 }

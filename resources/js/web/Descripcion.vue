@@ -28,7 +28,7 @@
                 <div  class="product-carousel">
                     <div v-for="product in products" :key="product.id" class="single-product col-lg-4 col-md-4 col-sm-4 col-xs-6">
                         <div class="product-f-image">
-                            <a href="/detalle">
+                            <a :href="'/detalle/' + product.id" >
                                 <img :src="'/' + product.image" width="100%" alt="">
                             </a>
                             <h3>{{product.name}}</h3>

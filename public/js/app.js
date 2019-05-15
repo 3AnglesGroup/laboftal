@@ -32645,7 +32645,7 @@ var render = function() {
                 },
                 [
                   _c("div", { staticClass: "product-f-image" }, [
-                    _c("a", { attrs: { href: "/detalle" } }, [
+                    _c("a", { attrs: { href: "/detalle/" + product.id } }, [
                       _c("img", {
                         attrs: {
                           src: "/" + product.image,
