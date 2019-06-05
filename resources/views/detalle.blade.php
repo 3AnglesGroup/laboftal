@@ -62,7 +62,7 @@
                     <p class="text-faded prrf_panel_uno">{{$product->description}}</p>
                     <p class="especf_tecnicas"><i>ESPECIFICACIONES TÉCNICAS</i>
                     </p>
-                    <a  href="/archivos/SL-2G.pdf" download class="btn pull-right">Descargar</a>
+                    <a  href="{{$product->archivo}}" download class="btn pull-right">Descargar</a>
                 </div>
             </div>
         </div>
