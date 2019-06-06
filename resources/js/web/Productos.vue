@@ -66,7 +66,7 @@
             }
         },
         created(){
-            this.getCategorias(1)
+            // this.getCategorias(1)
         },
         methods:{
             getCategorias(id){

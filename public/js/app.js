@@ -2437,8 +2437,7 @@ __webpack_require__.r(__webpack_exports__);
       categorias: []
     };
   },
-  created: function created() {
-    this.getCategorias(1);
+  created: function created() {// this.getCategorias(1)
   },
   methods: {
     getCategorias: function getCategorias(id) {
