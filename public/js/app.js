@@ -2339,8 +2339,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   created: function created() {
     this.getSubcategoria();
-    this.getProducts();
-    this.getProducts(1);
+    this.getProducts(); //    this.getProducts(1)
   },
   methods: {
     getSubcategoria: function getSubcategoria() {
