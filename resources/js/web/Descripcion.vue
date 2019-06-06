@@ -54,7 +54,7 @@ export default {
     created(){
         this.getSubcategoria()
         this.getProducts()
-       this.getProducts(1)
+    //    this.getProducts(1)
         
         
     },
