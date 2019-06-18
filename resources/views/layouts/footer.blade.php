@@ -31,7 +31,7 @@
                  <div class="box_md_bloque">
                      <div class="col-lg-2 col-xs-2 box_md_izq">
                          <i class="fa fa-envelope fa-2x sr-contact"></i></div>
-                     <div class="col-lg-10 col-xs-10 box_md_der" style="padding-top: 7px">ventas@laboftal.com.co</div>
+                     <div class="col-lg-10 col-xs-10 box_md_der" style="padding-top: 7px">ventas@laboftal.com</div>
                  </div>
                  <div class="box_md_bloque pull-left box_md_txt" style="font-size: 17px; color: #009BA4;">
                      Encuentranos en Google Maps
