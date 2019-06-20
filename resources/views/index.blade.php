@@ -9,10 +9,36 @@
                 <h1 id="homeHeading">TECNOLOGÍA</h1>
                 <h1 class="seg_tlt">Avanzada</h1>
             </div>
+            <section class="panel_logos_header" id="">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                        <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                        <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                        <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                        <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                        <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                    </div>
+                </div>
+            </section>
         </div>
     </header>
 
 <!-- ______________________________________________________________________-->
+    
+    <section class="panel_logos_body" id="">
+        <div class="container">
+            <div class="row">
+                <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+                <div class="logo_marca col-lg-2 col-md-4 col-sm-6 col-xs-6"><img src="" alt=""></div>
+            </div>
+        </div>
+    </section>
+
     <section class="panel_uno" id="">
         <div class="container">
             <div class="row">

@@ -92,6 +92,9 @@
 	 			padding:100px 15px 100px 15px;
 	 			/*border: 1px solid yellow;*/
 	 }
+	 	div.header-content-inner{
+	 		display: block;
+	 	}
 
 		 header .header-content .header-content-inner hr.hr_header{
 		 			margin:20px auto;
@@ -120,6 +123,35 @@
 		 	margin-top: -14px !important;
 		 }
 
+
+	 section.panel_logos_header{
+ 	         padding:20px 0 20px 0;
+ 	         clear: both;
+ 	         display: none;
+	 }
+
+
+
+	 section.panel_logos_body{
+ 	         padding:20px 0 20px 0;
+ 	         clear: both;
+	 }
+		section.panel_logos_body div.logo_marca{
+			border: 1px solid #707070;
+			height: 46px;
+			border-radius: 25px;
+			margin-bottom: 6px;
+			margin-left: auto;
+			margin-right: auto;
+		    text-align: center;
+		    padding-top: 1px;
+		    /*overflow: hidden;*/
+			}		
+
+		  div.logo_marca img{
+		    width: 130px;
+		    margin: auto;
+		  }
 		 
 
 /*__________________________________________*/
@@ -143,8 +175,7 @@
  @media (min-width:768px){
 
  	header{
- 		   min-height:100%;
- 		   /*border: 2px solid yellow;*/
+ 		   min-height:100%;	
  	}
 		div.header-content{
 			position:absolute;
@@ -184,16 +215,44 @@
 						}
  } 
 
- 
 
 /*__________________________________________*/
 
-
 @media (min-width: 1200px) {
-          header {
-             height: 128%;
-          }
-        }     
+	header {
+		height: 128%;
+	}
+		section.panel_logos_header{
+			     margin-top: 80px;
+		         padding:20px 0 20px 0;
+		         display: block;
+		         width: 95%;
+		}
+			section.panel_logos_header div.logo_marca{
+				border: 1px solid #707070;
+				height: 46px;
+				border-radius: 25px;
+				margin-bottom: 6px;
+			    text-align: center;
+			    padding-top: 1px;
+			    /*overflow: hidden;*/
+				}		
+
+			  div.logo_marca img{
+			    width: 130px;
+			    margin: auto;
+			  }			
+		section.panel_logos_header div.logo_marca{
+		    margin-top: 20px;
+		}		
+
+		section.panel_logos_body{
+		         padding:20px 0 20px 0;
+		         clear: both;
+		         display: none;
+		}	
+				
+}     
 
 /*______________________________________________________________________*/
 /*______________________________________________________________________*/
