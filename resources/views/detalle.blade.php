@@ -63,7 +63,7 @@
                     <p class="especf_tecnicas"><i>ESPECIFICACIONES TÉCNICAS</i>
                     </p>
                     <!-- href="/{{$product->archivo}}" -->
-                    <a download="Especificaciones" class="btn pull-right" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Descargar</a>
+                    <button download="Especificaciones" class="btn pull-right" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Descargar</button>
                 </div>
             </div>
         </div>
