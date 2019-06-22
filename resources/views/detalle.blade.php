@@ -62,7 +62,8 @@
                     <p class="text-faded prrf_panel_uno">{{$product->description}}</p>
                     <p class="especf_tecnicas"><i>ESPECIFICACIONES TÉCNICAS</i>
                     </p>
-                    <a  href="/{{$product->archivo}}"  download="Especificaciones" class="btn pull-right">Descargar</a>
+                    <!-- href="/{{$product->archivo}}" -->
+                    <a download="Especificaciones" class="btn pull-right" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Descargar</a>
                 </div>
             </div>
         </div>
@@ -70,27 +71,40 @@
 
 <!-- ______________________________________________________________________-->
 
-    <section class="panel_dos" id="">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 caja_form">
-                    <form role="form" action="email.php" method="POST">
-                        <input type="text" class="formulario-control" id="name" name="nombre" placeholder="NOMBRE" required="true" />
 
-                        <input type="email" class="formulario-control" id="email" name="correo" placeholder="TEL FIJO" required="true"/>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Descargue su Ficha Técnica</h4>
+      </div>
+      <div class="modal-body">
+        <section class="panel_dos" id="">
+                <div class="row">
+                    <div class="col-lg-12 caja_form">
+                        <form role="form" action="email.php" method="POST">
+                            <input type="text" class="formulario-control" id="name" name="nombre" placeholder="NOMBRE" required="true" />
 
-                        <input type="email" class="formulario-control" id="email" name="correo" placeholder="CELULAR" required="true"/>
+                            <input type="email" class="formulario-control" id="email" name="correo" placeholder="TEL FIJO" required="true"/>
 
-                        <input type="email" class="formulario-control" id="email" name="correo" placeholder="EMAIL" required="true"/>
+                            <input type="email" class="formulario-control" id="email" name="correo" placeholder="CELULAR" required="true"/>
 
-                        <textarea rows="5" cols="50" class="formulario-control" id="message" name="mensaje" placeholder="ASUNTO" required="true"></textarea>
+                            <input type="email" class="formulario-control" id="email" name="correo" placeholder="EMAIL" required="true"/>
 
-                        <button type="submit" class="btn btn-primary pull-right">ENVIAR</button>
-                    </form>
+                            <textarea rows="5" cols="50" class="formulario-control" id="message" name="mensaje" placeholder="ASUNTO" required="true"></textarea>
+
+                            <button type="submit" class="btn btn-primary pull-right">ENVIAR</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+        </section>        
+      </div>
+  </div>
+</div>
+</div>
+
 
 <!-- _________________________________________________________________--> 
 
